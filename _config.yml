@@ -102,4 +102,6 @@ theme: snippet-develop
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:landuof/landuof.github.io.git # 这里需要改成你自己的仓库地址
+  branch: gh-pages
